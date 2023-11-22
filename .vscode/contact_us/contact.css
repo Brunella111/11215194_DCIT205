@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Garamond', serif;
-    background-color: rgba(229, 203, 151, 0.76);
-    color: #333;
+    background: color #2d373a ;;
+    color: rgb(32, 26, 91);
 }
 
 .contact_box {
