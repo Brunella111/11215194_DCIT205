@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Garamond', serif;
-    background: color #2d373a ;;
+    background-color: rgb(32, 26, 91) ;
     color: rgb(32, 26, 91);
 }
 
@@ -60,5 +60,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #555;
+    background-color: rgb(32, 26, 91);
+    transform: scale(1.05); 
+    transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
 }
