@@ -1,0 +1,97 @@
+/* General Styles */
+body ,p{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+  
+  header {
+    background-color: #153d6f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    background-image: url('home.jpeg');
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    filter: blur(1px);
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #153d6f; /* Header text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+  }
+  
+  header h1 {
+    margin: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+ 
+  
+  /* Project Cards */
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+        flex: 0 0 calc(60% - 20px); /* Adjust width as needed */
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px; /* Add some space between elements */
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        min-height: auto;
+        flex: 1;grid-template-columns: 50px,50px,50px;
+        grid-template-rows: 50px,50px,50px;
+        padding: 30px;
+        color:  #153d6f ;
+        z-index: 2;
+  }
+  
+  .project h2 {
+    margin-top: 0;
+  }
+  
+  .details {
+    display: none;
+  }
+  .project:hover {
+    background-color: #b5975d ; /* Change background color on hover */
+    transform: scale(1.05); 
+    transition: background-color 0.6s ease, transform 0.3s ease; }
+
+    .project img {
+        float: left; /* Float the image */
+        margin-right: 20px; /* Add space between image and text */
+        border-radius: 5px; /* Rounded corners */
+    }
+    
+    /* Additional Styles as Needed */
+    /* For example, if you want rounded corners for images */
+    img {
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px;
+    }
+
+
+  
+
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .project {
+      padding: 10px;
+    }
+  }
+  
+  /* More media queries and responsive styling can be added as needed */
+  

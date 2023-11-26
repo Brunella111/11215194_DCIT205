@@ -95,22 +95,22 @@ h2, .achievement, .future h2, .who h2 {
     
 }
     .who_content1 :hover {
-        background-color: #ffcc66a1; /* Change background color on hover */
+        background-color: #b5975d ; /* Change background color on hover */
         transform: scale(1.05); 
         transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
 }
    .who_content2 :hover {
-        background-color: #ffcc66a1; /* Change background color on hover */
+        background-color: #b5975d ; /* Change background color on hover */
         transform: scale(1.05); 
         transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
 }
   .future :hover {
-        background-color: #ffcc66a1; /* Change background color on hover */
+        background-color: #b5975d ; /* Change background color on hover */
         transform: scale(1.05); 
         transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
 }
  .achievement :hover {
-        background-color: #ffcc66a1; /* Change background color on hover */
+        background-color: #b5975d ; /* Change background color on hover */
         transform: scale(1.05); 
         transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
 }

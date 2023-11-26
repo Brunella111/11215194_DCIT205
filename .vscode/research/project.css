@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  .project{
+    flex: 0 0 calc(60% - 20px); /* Adjust width as needed */
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px; /* Add some space between elements */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: auto;
+    flex: 1;grid-template-columns: 50px,50px,50px;
+    grid-template-rows: 50px,50px,50px;
+    padding: 30px;
+    color:  #153d6f ;
+    z-index: 2;}
+  
+  /* Project Cards */
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .project h2 {
+    margin-top: 0;
+  }
+  
+  .details {
+    display: none;
+  }
+  
+  /* Button Styles */
+  .details-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .project {
+      padding: 10px;
+    }
+  }
+  
+  /* More media queries and responsive styling can be added as needed */
+  
