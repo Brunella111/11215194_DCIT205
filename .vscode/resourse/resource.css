@@ -1,0 +1,110 @@
+/* Resetting default margin and padding */
+body, h1, h2,p{
+    margin: 3px;
+    padding: 20px;
+    position: relative;
+    color: rgb(32, 26, 91);
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333; 
+    background-color: white; 
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    background-image: url('library1.jpeg'); 
+    filter: blur(1px);
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.resourses {
+    padding-top: 50px; 
+  }
+  
+  .top {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(32, 26, 91); 
+    color: #fff; 
+    padding: 15px 0; 
+    text-align: center; 
+    z-index: 1000; 
+  }
+
+/* Main Content Styles */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.resource1 {
+    color: rgb(32, 26, 91);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    position: sticky;
+  top: 0;
+  background-color: white; /* Adjust the background color as needed */
+  z-index: 100;
+
+}
+
+
+ 
+
+#resource1{
+    flex: 0 0 calc(60% - 20px); /* Adjust width as needed */
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: auto;
+    flex: 1;grid-template-columns: 50px,50px,50px;
+    grid-template-rows: 50px,50px,50px;
+    padding: 30px;
+    color:  rgb(32, 26, 91);
+    z-index: 2;
+}   
+
+ #resource1 :hover {
+        background-color: #ffcc66a1; 
+        transform: scale(1.05); 
+        transition: background-color 0.6s ease, transform 0.3s ease;
+}
+.resource-category :hover {
+    background-color: #ffcc66a1; /* Change background color on hover */
+    transform: scale(1.05); 
+    transition: background-color 0.6s ease, transform 0.3s ease;}
+
+.resource1 {
+    overflow: hidden; 
+    margin-bottom: 20px;
+    background-image:('innovation.jpeg' );
+}
+
+.resource1 img {
+    float: left; 
+    margin-right: 20px; 
+    border-radius: 5px;}
+
+img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 5px;
+}
