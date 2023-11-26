@@ -3,7 +3,7 @@ body, h1, h2,p{
     margin: 3px;
     padding: 20px;
     position: relative;
-    color: rgb(32, 26, 91);
+    color: #153d6f;
 }
 
 /* Global Styles */
@@ -28,7 +28,7 @@ header {
     align-items: center;
     text-align: center;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 4px #153d6f ; 
 }
 
 .resourses {
@@ -40,7 +40,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color:rgb(32, 26, 91); 
+    background-color:#153d6f ; 
     color: #fff; 
     padding: 15px 0; 
     text-align: center; 
@@ -55,8 +55,8 @@ header {
 }
 
 .resource1 {
-    color: rgb(32, 26, 91);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: #153d6f ;
+    text-shadow: 1px 1px 2px #153d6f ;
     position: sticky;
   top: 0;
   background-color: white; /* Adjust the background color as needed */
@@ -73,22 +73,22 @@ header {
     margin-left: 50px;
     margin-right: 50px; 
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #153d6f ;
     min-height: auto;
     flex: 1;grid-template-columns: 50px,50px,50px;
     grid-template-rows: 50px,50px,50px;
     padding: 30px;
-    color:  rgb(32, 26, 91);
+    color:  #153d6f;
     z-index: 2;
 }   
 
  #resource1 :hover {
-        background-color: #ffcc66a1; 
+        background-color: #b5975d ; 
         transform: scale(1.05); 
         transition: background-color 0.6s ease, transform 0.3s ease;
 }
 .resource-category :hover {
-    background-color: #ffcc66a1; /* Change background color on hover */
+    background-color: #b5975d ; /* Change background color on hover */
     transform: scale(1.05); 
     transition: background-color 0.6s ease, transform 0.3s ease;}
 

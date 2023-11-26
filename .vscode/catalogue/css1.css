@@ -46,7 +46,7 @@ header h1 {
 }
 
 .topic {
-    color: rgb(32, 26, 91);
+    color: #153d6f;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     position: sticky;
   top: 0;
@@ -79,13 +79,13 @@ header h1 {
     margin-right: 50px;
     margin-bottom: 50px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgb(32, 26, 91);
+    box-shadow: 0 0 10px #153d6f;
     min-height: 100%;
     flex: 3;
     grid-template-columns: 50px,50px,50px;
     grid-template-rows: 50px,50px,50px;
     padding: 30px;
-    color:  rgb(32, 26, 91);
+    color:  #153d6f;
     z-index: 2;
   
     justify-content: space-between;
@@ -118,7 +118,7 @@ img {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(32, 26, 91);
+    background-color: #153d6f;
     color: #fff;
     text-align: center;
     font-size: 1rem;
@@ -127,7 +127,7 @@ img {
   }
   
   .register-btn:hover {
-    background-color: rgb(32, 26, 91);
+    background-color: #153d6f;
   }
   
   /* Responsive design */
@@ -143,13 +143,13 @@ img {
       margin-right: 50px;
       margin-bottom: 50px;
       border-radius: 20px;
-      box-shadow: 0 0 10px rgb(32, 26, 91);
+      box-shadow: 0 0 10px #153d6f;
       min-height: 100%;
       flex: 3;
       grid-template-columns: 50px,50px,50px;
       grid-template-rows: 50px,50px,50px;
       padding: 30px;
-      color:  rgb(32, 26, 91);
+      color:  #153d6f;
       z-index: 2;
     
       justify-content: space-between;

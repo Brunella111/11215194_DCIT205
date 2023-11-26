@@ -8,14 +8,14 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: rgb(32, 26, 91);;
+    background-color: #153d6f ;;
     margin: 0;
     padding: 0;
   }
   
   header {
-    background-color: #ffcc66;
-    color:  rgb(32, 26, 91);
+    background-color: #b5975d ;
+    color:  #153d6f ;
     padding: 20px;
     text-align: center;
     font-size: calc(1.5rem+3vw);
@@ -45,17 +45,17 @@
     margin-bottom: 20px;
     background-color: bisque;
     border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px #153d6f ;
     min-height: auto;
     flex: 1;grid-template-columns: 50px,50px,50px;
     grid-template-rows: 50px,50px,50px;
     padding: 20px;
-    color:  rgb(32, 26, 91);
+    color:  #153d6f ;
     z-index: 2;
     ;
   }
   .staff:hover {
-    background-color: #ffcc66a1; /* Change background color on hover */
+    background-color: #b5975d ; /* Change background color on hover */
     transform: scale(1.05); 
     transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
 }

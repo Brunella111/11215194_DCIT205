@@ -55,7 +55,7 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #3498db;
+    background-color: #153d6f ;
     color: #fff;
     text-align: center;
     font-size: 1rem;
@@ -64,7 +64,7 @@
   }
   
   .register-btn:hover {
-    background-color: #2980b9;
+    background-color: #153d6f ;
   }
   
   /* Responsive design */

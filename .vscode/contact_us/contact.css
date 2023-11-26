@@ -7,15 +7,15 @@
 
 body {
     font-family: 'Garamond', serif;
-    background-color: rgb(32, 26, 91) ;
-    color: rgb(32, 26, 91);
+    background-color: #153d6f ;
+    color:#153d6f ;
 }
 
 .contact_box {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffcc66;
+    background-color:#b5975d ;
 }
 
 .form {
@@ -60,7 +60,7 @@ p {
 }
 
 .btn:hover {
-    background-color: rgb(32, 26, 91);
+    background-color: #153d6f  ;
     transform: scale(1.05); 
     transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
 }
