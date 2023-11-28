@@ -102,10 +102,25 @@ header {
 
   .showcase img{
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
   }
 /* SHOWCASE  END*/
 
+/* MAIN-HEAD START */
+.main-head{
+    margin: 0 auto 0 auto;
+    color: #b5975d;
+    padding: 20px
+
+
+}
+
+
+.main-head{
+    color: #b5975d;
+}
+
+/* MAIN-HEAD END */
 
 
 /* SHORTCOURSES START */
@@ -500,6 +515,8 @@ input::placeholder {
 
 
 
+
+
 /* FOOTER START */
 footer {
     bottom: 0px;
@@ -510,6 +527,11 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#res {
+    /* bottom: 0px; */
+    background: linear-gradient(rgba(4, 42, 233, 0.918),rgba(163, 135, 12, 0.864));
 }
 
 .footer-wrapper {
@@ -654,16 +676,9 @@ footer {
 
 
 /* FACULTY START */
-.faculty-head{
-    margin: 0 auto 0 auto;
-    color: #b5975d;
 
 
-}
 
-.faculty-head{
-    color: #b5975d;
-}
 #faculty{
     display: flex;
     display: grid;
@@ -683,21 +698,9 @@ footer {
     box-shadow: 0 0 20px #153d6f ;
     margin: 0px auto 0px auto;
     align-items: center;
-
-
     display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
-    /* grid-gap: 30px; */
-    /* margin-bottom: 20px; */
-    /* background-color: bisque; */
     border-radius: 20px;
-    /* box-shadow: 0 0 30px #153d6f ; */
-    /* min-height: auto; */
-    /* flex: 1;grid-template-columns: 50px,50px,50px; */
-    /* grid-template-rows: 50px,50px,50px; */
     padding: 20px;
-    /* color:  #153d6f ; */
-    /* z-index: 2; */
     
   } 
   
@@ -708,8 +711,6 @@ footer {
     height: auto;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    /* box-shadow: 0 0 30px #153d6f ; */
     filter: brightness(1) contrast(1.2); 
     border-radius: 20px;
 
@@ -727,15 +728,36 @@ footer {
     font-weight: lighter;
   
   }
-  
- 
-    .staff {
-      grid-template-columns: 50px,50px,50px;
-      grid-template-rows: 50px,50px,50px;
-      /* background-color: white !important; */
-      padding: 20px;
 
+.staff {
+    grid-template-columns: 50px,50px,50px;
+    grid-template-rows: 50px,50px,50px;
+    padding: 20px;
     }
 
 
+
 /* FACULTY END */
+
+.contact_box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#b5975d ;}
+
+    .contact_info,
+.contact_us_form {
+    flex: 1;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+ #about{
+    margin: 3px;
+    padding: 20px;
+    position: relative;
+    color: #153d6f ;
+    font-size: 25px;}
