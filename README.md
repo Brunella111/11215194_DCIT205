@@ -43,16 +43,23 @@ Once the project is cloned:
 Here are the screenshots of each page of the website:
 
 ![home page]()
-![about page][image.jpg](<Screenshot 2023-11-28 at 10.18.29 PM.jpeg>)](<Screenshot 2023-11-28 at 10.18.29 PM.png>))
-![alt text](![image.jpg](<Screenshot 2023-11-28 at 10.19.27 PM.png>))
-![alt text](image.jpg)
-![alt text](image.jpg)
-![alt text](image.jpg)
-![alt text](image.jpg)
-![alt text](image.jpg)
-![alt text](image.jpg)
-![alt text](image.jpg)
-![Alt text](<Screenshot 2023-11-28 at 10.18.29 PM.jpeg>)
+
+![alt text](![Screenshot 2023-11-28 at 10.18.29 PM.jpeg])
+![alt text](Screenshot 2023-11-28 at 10.19.27 PM..jpeg)
+![alt text](Screenshot 3.jpeg)
+![alt text](Screenshot 4.jpeg)
+![alt text](Screenshot 5.jpeg)
+![alt text](!Screenshot 6.jpeg)
+![alt text](Screenshot 7.jpeg)
+![alt text](Screenshot 8.jpeg)
+![alt text](Screenshot 9.jpeg)
+![Alt text](Screenshot 10.jpeg)
+![Alt text](Screenshot 11.jpeg)
+![Alt text](Screenshot 2023-11-28 at 10.22.47 PM.png)
+![Alt text](Screenshot 2023-11-28 at 10.22.51 PM.png)
+![Alt text](Screenshot 2023-11-28 at 10.23.13 PM.png)
+![Alt text](Screenshot 2023-11-28 at 10.23.21 PM.png)
+
 
 ### Lessons Learned
 
@@ -66,5 +73,7 @@ Throughout this project, I have gained valuable experience in:
 
    In the process of developing this website, obtaining faculty members' pictures posed a unique challenge due to unavailability of their actual images on the internet. To supplement the absence of actual faculty photos, a combination of AI-generated pictures and sourced images from reputable websites related to academia were utilized.
 
-   Lesson learnt: The process of acquiring suitable images prompted an exploration into innovative solutions to circumvent challenges faced in obtaining actual faculty photographs. This experience promoted a deeper understanding of utilizating technology-driven solutions and exploring diverse avenues to overcome constraints within web development
+   Lesson learnt: The process of acquiring suitable images prompted an exploration into innovative solutions to circumvent challenges faced in obtaining actual faculty photographs. This experience promoted a deeper understanding of utilizating technology-driven solutions and exploring diverse avenues to overcome constraints within web development.
+
+   During the process, I encountered a situation where I needed to create a new folder to reorganize the contents from a previous folder whose location I couldn't ascertain. As a result, I moved the items to this newly created folder for better organization and accessibility.
 
