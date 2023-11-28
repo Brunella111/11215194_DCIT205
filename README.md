@@ -53,6 +53,7 @@ Here are the screenshots of each page of the website:
 ![alt text](image.jpg)
 ![alt text](image.jpg)
 ![Alt text](<Screenshot 2023-11-28 at 10.18.29 PM.jpeg>)
+
 ### Lessons Learned
 
 Throughout this project, I have gained valuable experience in:
