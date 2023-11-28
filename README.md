@@ -42,8 +42,9 @@ Once the project is cloned:
 
 Here are the screenshots of each page of the website:
 
-![home page](image.jpg)
-![about page](image.jpg)
+![home page]()
+![about page][image.jpg](<Screenshot 2023-11-28 at 10.18.29 PM.jpeg>)](<Screenshot 2023-11-28 at 10.18.29 PM.png>))
+![alt text](![image.jpg](<Screenshot 2023-11-28 at 10.19.27 PM.png>))
 ![alt text](image.jpg)
 ![alt text](image.jpg)
 ![alt text](image.jpg)
@@ -51,8 +52,7 @@ Here are the screenshots of each page of the website:
 ![alt text](image.jpg)
 ![alt text](image.jpg)
 ![alt text](image.jpg)
-![alt text](image.jpg)
-
+![Alt text](<Screenshot 2023-11-28 at 10.18.29 PM.jpeg>)
 ### Lessons Learned
 
 Throughout this project, I have gained valuable experience in:
