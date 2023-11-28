@@ -1,24 +1,24 @@
-/* Resetting default margin and padding */
-body, h1, h2 ,p{
+
+body, p{
     margin: 3px;
     padding: 20px;
     position: relative;
     color: #153d6f ;
+    font-size: 25px;
 }
 
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333; /* Default text color */
-    background-color: white; /* Default
-    ; /* Default background color */
+    color: #333; 
+    background-color: white; 
+    
 }
 
 /* Header Styles */
 header {
     position: relative;
-    height: 300px; /* Adjust height as needed */
+    height: 300px; 
     background-image: url('class.jpeg'); 
     filter: blur(1px);
     z-index: 1;
@@ -28,32 +28,35 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff; /* Header text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+    color: #b5975d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
-/* Title Style in Header */
+
 header h1 {
     font-size: 3em;
     z-index: 2;
     position: relative;
 }
 
-/* Main Content Styles */
+
 .container {
     max-width: 900px;
     margin: 20px auto;
     padding: 0 20px;
 }
 
-/* Yellow Theme Color */
+
 h2, .achievement, .future h2, .who h2 {
     color: #153d6f ;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     position: sticky;
   top: 0;
-  background-color: white; /* Adjust the background color as needed */
+  background-color: white; 
   z-index: 100;
+  font-size: 30px;
+  padding: 20px;
+  margin: 3px;
 
 }
 .year{
@@ -62,6 +65,7 @@ h2, .achievement, .future h2, .who h2 {
     font-weight: bold;
     font-size: 60px;
     margin-top: 30px;
+    color: #b5975d;
 }
 .decade {
     display: block;
@@ -70,14 +74,6 @@ h2, .achievement, .future h2, .who h2 {
     font-size: larger;
     font-family: 'roboto', sans-serif;
 }
-
-/* Side-by-Side Layout for 'who' and 'who_content' */
-/* .who {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap; /* Allow items to wrap */
- 
 
 .who_content1, .who_content2,.future,.achievement{
     flex: 0 0 calc(60% - 20px); /* Adjust width as needed */
@@ -100,9 +96,9 @@ h2, .achievement, .future h2, .who h2 {
         transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
 }
    .who_content2 :hover {
-        background-color: #b5975d ; /* Change background color on hover */
+        background-color: #b5975d ; 
         transform: scale(1.05); 
-        transition: background-color 0.6s ease, transform 0.3s ease; /* Smooth transition for the effect */
+        transition: background-color 0.6s ease, transform 0.3s ease; 
 }
   .future :hover {
         background-color: #b5975d ; /* Change background color on hover */
@@ -116,7 +112,7 @@ h2, .achievement, .future h2, .who h2 {
 }
 
 
-/* Float for Achievement Image */
+
 .achievement {
     overflow: hidden; /* Clear floats */
     margin-bottom: 20px; /* Adjust margin as needed */
